@@ -26,7 +26,7 @@ pip install opencv-python ultralytics numpy
 
 #### **4. Run & Quit**  
 ```bash
-python your_script.py
+python object.py
 ```  
 - Press **`Q`** to exit  
 
