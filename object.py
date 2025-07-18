@@ -9,7 +9,7 @@ model.imgsz = 320                                                              #
 #===============================================================================
 #video 
 #===============================================================================
-cap = cv2.VideoCapture("http://192.168.100.8:8080/video")                     #=
+cap = cv2.VideoCapture("http://192.xxx.xxx.x:8080/video")                     #= use cap = cv2.VideoCapture(0) for default camera
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)                                           #=
 if not cap.isOpened():                                                        #=
     print("Camera Error")                                                     #=
